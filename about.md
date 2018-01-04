@@ -12,7 +12,7 @@ Kevin Dudley is a research scientist at the Queensland University of Technology 
 ### Contact Information
 
 Mailing Address
-: IFE, 2 George Street, Brisbane, QLD 4000
+: Institute for Future Environments, GPO Box 2434, Brisbane, QLD 4001, AUSTRALIA
 
 Email
 : kevin dot dudley 1 at gmail dot com
