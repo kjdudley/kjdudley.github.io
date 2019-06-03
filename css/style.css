@@ -45,7 +45,7 @@ a {
 }
 
 .byline {
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
   color: rgba(255, 255, 255, 0.5);
   float: left;
   font-size: 14px;
