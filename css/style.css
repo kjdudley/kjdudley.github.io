@@ -1,0 +1,39 @@
+h1 {
+  font-family: Garamond;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: Garamond;
+  color: blue;
+  font-size: 30px;
+}
+
+h2.training {
+font-family: cursive;
+}
+
+p {
+  font-size: Helvetica;
+  color: black;
+  font-size: 18px;
+}
+
+.opening {
+  font-weight: bold;
+  font-style: italic;
+  color: teal;
+}
+
+#science {
+  color: firebrick;
+}
+
+.main-list li {
+  color: green;
+}
+
+.opening,
+#science {
+  text-transform: capitalize;
+}
