@@ -40,6 +40,10 @@ p {
   font-weight: bold;
 }
 
+.content {
+  padding: 40px;
+}
+
 .image {
   background-image: url("https://www.ars.usda.gov/ARSUserFiles/60660500/cornear1.jpg");
   background-size: cover;
