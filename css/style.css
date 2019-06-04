@@ -9,10 +9,15 @@ body {
   padding: 0;
 }
 
+nav{
+  background: black;
+}
+
 h1 {
   color: #FFF;
-  font-size: 2em;
-  padding-top: 100px;
+  font-size: 100px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   width: 100%;
   font-family: Georgia;
   text-align: center;
@@ -22,7 +27,7 @@ h2 {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   color: rgba(255, 255, 255, 0.5);
   font-weight: 100;
-  font-size: 22px;
+  font-size: 50px;
   line-height: 24px;
   padding-bottom: 30px;
   text-align: left;
@@ -57,24 +62,24 @@ a {
   padding: 40px;
 }
 
-.image {
+.banner {
   background-image: url("https://www.ars.usda.gov/ARSUserFiles/60660500/cornear1.jpg");
   background-size: cover;
   background-position: center;
-  height: 300px;
+  height: 150px;
 }
 
 .caption {
   display: block;
   font-family: 'Playfair Display', serif;
   font-size: 14px;
-  font-style: italic;
+  font-style: oblique;
   line-height: 14px;
-  margin-left: 20px;
-  padding: 10px;
+  margin-left: 0px;
+  padding-left: 2px;
   position: relative;
-  top: 80%;
-  width: 60%;
+  top: 100%;
+  width: 100%;
   background-color: white;
   color: black;
   opacity: 0.75;
@@ -86,4 +91,14 @@ a {
   box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
   float: left;
   width: 50px;
+}
+
+.Article {
+  height: 300px;
+}
+
+.headline {
+  font-size: 2em;
+  padding-top: 100px;
+  padding-bottom: 10px;
 }
