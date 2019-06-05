@@ -1,3 +1,18 @@
+* {
+  /* Reset browser defaults */
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* Old browsers */
+  background: #141E30;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(-45deg, #35577D, #141E30);
+}
+
 body {
   /* Old browsers */
   background: #141E30;
@@ -7,10 +22,6 @@ body {
   background: linear-gradient(-45deg, #35577D, #141E30);
   margin: 0;
   padding: 0;
-}
-
-nav{
-  background: black;
 }
 
 h1 {
@@ -28,11 +39,14 @@ h2 {
   color: rgba(255, 255, 255, 0.5);
   font-weight: 100;
   font-size: 50px;
-  line-height: 24px;
+  line-height: 50px;
+  padding-top: 10px;
   padding-bottom: 30px;
   text-align: left;
-  width: 70%;
+  height: 50px;
+  width: 100%;
   font-family: Georgia;
+  margin-bottom: 20px;
 }
 
 p {
@@ -49,24 +63,27 @@ a {
   color: AliceBlue;
 }
 
-.byline {
-  font-family: Helvetica, sans-serif;
-  color: rgba(255, 255, 255, 0.5);
-  float: left;
-  font-size: 14px;
-  padding-left: 10px;
-  text-transform: uppercase;
-}
-
 .content {
   padding: 40px;
+  position: relative;
+  top: 150px;
+  /* Old browsers */
+  background: #141E30;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(-45deg, #35577D, #141E30);
+
 }
 
 .banner {
   background-image: url("https://www.ars.usda.gov/ARSUserFiles/60660500/cornear1.jpg");
   background-size: cover;
   background-position: center;
-  height: 150px;
+  height: 190px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
 .caption {
@@ -79,7 +96,7 @@ a {
   padding-left: 2px;
   position: relative;
   top: 100%;
-  width: 100%;
+  width: 40%;
   background-color: white;
   color: black;
   opacity: 0.75;
@@ -91,9 +108,20 @@ a {
   box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
   float: left;
   width: 50px;
+  margin-top: 10px;
 }
 
-.Article {
+.byline {
+  font-family: Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+  float: left;
+  font-size: 14px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.article {
   height: 300px;
 }
 
@@ -101,4 +129,35 @@ a {
   font-size: 2em;
   padding-top: 100px;
   padding-bottom: 10px;
+}
+
+.statement {
+  background-color: inherit;
+  border-style: none;
+  border-width: 1px;
+  border-color: red;
+  min-height: 50px;
+  max-height: 400px;
+  min-width: 400px;
+  max-width: 800px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  overflow: auto;
+  text-align: center;
+  font-style: italic;
+}
+
+.articleparagraph {
+  display: inline-block;
+  max-height: 300px;
+  min-width: 10%;
+  max-width: 100%;
+  overflow: auto;
+  margin-top: 20px;
+}
+
+.rectangle {
+  display: inline-block;
+  width: 20%;
+  height: 160px;
 }

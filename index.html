@@ -6,30 +6,33 @@
   </head>
   <body>
     <nav class="banner">
-        <a href="./index.html">Letterbox</a>
-        <a href="./datasets.html">Writing desk</a>
-        <a href="./aboutme.html">About</a>
-        <ul class='main-list'>
-          <li><a href="#letters">Letters</a></li>
-          <li><a href="#science">Science</a></li>
-          <li><a href="#training">Training</a></li>
-          <li><a href="#about">About</a></li>
+        <a class="rectangle" href="./index.html">Letterbox</a>
+        <a class="rectangle" href="./datasets.html">Writing desk</a>
+        <a class="rectangle" href="./aboutme.html">About</a>
+        <ul>
+          <li class="rectangle"><a href="#letters">Letters</a></li>
+          <li class="rectangle"><a href="#science">Science</a></li>
+          <li class="rectangle"><a href="#training">Training</a></li>
+          <li class="rectangle"><a href="#about">About</a></li>
         </ul>
     </nav>
-    <h1>Letters from nature</h1>
     <div class="content">
+      <h1>Letters from nature</h1>
       <section id="letters">
         <h2>Letters</h2>
-          <div>
-            <p class="opening paragraph">These are the studies making news <span>today</span>.</p>
+          <div class="statement">
+            <p>These are the stories making the news <span>today</span>. Please contact Kevin Dudley if you have any news you would like to share with the rest of the user community.</p>
           </div>
           <div class="Helicoverpa">
             <!-- A description about helicoverpa. -->
             <img src="images/kjd-image.jpg" class="writer-img" alt="">
             <h3 class="byline">Article By: Kevin Dudley</h3>
             <h1 class="headline">Genome wide analysis of the Helicoverpa armigera methylome reveals a potential role for epigenetics</h1>
-            <img class="Article" src="https://www.ars.usda.gov/ARSUserFiles/60660500/cornear1.jpg" alt="Cotton bollworm">
-            <p>The first methylome analysis in the pest species <em>Helicoverpa armigera</em> was <a href="https://www.g3journal.org/content/8/3/779.long" target="_blank">reported</a> this week in the journal G3</p>
+            <img class="article" src="https://www.ars.usda.gov/ARSUserFiles/60660500/cornear1.jpg" alt="Cotton bollworm">
+            <p class="caption">A late instar H. armigera lava feeding on an unripe cotton
+            <div class="articleparagraph">
+              <p>The first methylome analysis in the pest species <em>Helicoverpa armigera</em> was <a href="https://www.g3journal.org/content/8/3/779.long" target="_blank">reported</a> this week in the journal G3</p>
+            </div>
           </div>
           <div class="Buffel">
             <!-- A description about buffel grass. -->
@@ -37,8 +40,9 @@
             <h3 class="byline">Article By: Kevin Dudley</h3>
             <h1 class="headline">The buffel grass conundrum facing Australia</h1>
             <img class="Article" src="https://nt.gov.au/__data/assets/image/0004/229792/buffel-grass-habit.jpg" alt="Buffel grass">
-            <p class="opening paragraph">Cenchrus ciliaris, commonly known as buffel grass, was introduced to Australia in the 1870's, and because of its high nutritional value, hardy nature and tolerance to extreme weather, became a heavily relied upon pastoral species \cite{marshall2012buffel}. Unfortunately, the characteristics that make buffel grass so effective for pasture also provide it with a competitive advantage over native species. That, together with the fact that its rapid growth and spread can fuel intense fires, against which it is better adapted to recover from, means its impact on biodiversity in Australia is potentially devastating. Traditional control methods such as cutting, grazing, burning and herbicide treatments are largely ineffective against mature buffel grass plants due to their tough base and extensive root systems. As such, novel control methods are urgently required.</p>
-            <p class="paragraph";>Another paragraph to prove that the class attribute only applies to paragraphs with that tag!</p>
+            <div class="articleparagraph">
+              <p>Cenchrus ciliaris, commonly known as buffel grass, was introduced to Australia in the 1870's, and because of its high nutritional value, hardy nature and tolerance to extreme weather, became a heavily relied upon pastoral species \cite{marshall2012buffel}. Unfortunately, the characteristics that make buffel grass so effective for pasture also provide it with a competitive advantage over native species. That, together with the fact that its rapid growth and spread can fuel intense fires, against which it is better adapted to recover from, means its impact on biodiversity in Australia is potentially devastating. Traditional control methods such as cutting, grazing, burning and herbicide treatments are largely ineffective against mature buffel grass plants due to their tough base and extensive root systems. As such, novel control methods are urgently required.</p>
+            </div>
           </div>
           <div class="Sex ratios">
             <!-- Temperature dependent sex determination. -->
@@ -46,7 +50,9 @@
             <h3 class="byline">Article By: Kevin Dudley</h3>
             <h1 class="headline">Is temperature-dependent sex determination controlled by epigenetic mechanisms?</h1>
             <img class="Article" src="https://journals.plos.org/plosgenetics/article/figure/image?size=inline&id=info:doi/10.1371/journal.pgen.1002447.g001" alt="Temperature induced epigenetic changes in sea bass">
+            <div class="articleparagraph">
             <p>Sex ratios in many fish and reptiles are determined by temperature during critical periods of development, often prior to gonad formation. Recent evidence suggests that epigenetic mechanisms may play a role in this process. In common garden experiments DNA methylation of the Cyp19a gene was <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002447" target="_blank">shown</a> to be higher in fish exposed to higher temperatures and had a negative effect on expression of the aromatase gene, specifically in gonad tissue. This effect was associated with an increased abundance of males. Similar effects were also shown in <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0063599" target="_blank">red-eared slider turtles</a> and <a href="https://academic.oup.com/biolreprod/article/90/1/2,%201-11/2513929" target="_blank">American alligators</a>.</p>
+          </div>
           </div>
       </section>
       <section id="science">
@@ -60,12 +66,9 @@
       <div id="training">
         <h2 class="training">Training</h2>
       </div>
-    <div id="about">
-      <h2>About</h2>
-    </div>
-    </div>
-    <div class="banner">
-      <p class="caption">A late instar H. armigera lava feeding on an unripe cotton boll</p>
+      <div id="about">
+        <h2>About</h2>
+      </div>
     </div>
   </body>
 </html>
