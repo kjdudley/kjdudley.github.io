@@ -6,26 +6,26 @@
 
 html {
   /* Old browsers */
-  background: #141E30;
+  background: #f9f8fd;
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  /* background: -webkit-linear-gradient(-45deg, #35577D, #141E30); */
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(-45deg, #35577D, #141E30);
+  /* background: linear-gradient(-45deg, #35577D, #141E30); */
 }
 
 body {
   /* Old browsers */
-  background: #141E30;
+  background: #f9f8fd;
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  /* background: -webkit-linear-gradient(-45deg, #35577D, #141E30); */
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(-45deg, #35577D, #141E30);
+  /* background: linear-gradient(-45deg, #35577D, #141E30); */
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  color: #FFF;
+  color: #1d1e22;
   font-size: 100px;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -35,8 +35,8 @@ h1 {
 }
 
 h2 {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  color: rgba(255, 255, 255, 0.5);
+  border-bottom: solid;
+  color: #1d1e22;
   font-weight: 100;
   font-size: 50px;
   line-height: 50px;
@@ -47,10 +47,11 @@ h2 {
   width: 100%;
   font-family: Georgia;
   margin-bottom: 20px;
+  border-bottom-color: #d4d4dc;
 }
 
 p {
-  color: AliceBlue;
+  color: #1d1e22;
   line-height: 1.3em;
   text-align: left;
   width: 100%;
@@ -60,19 +61,19 @@ p {
 }
 
 a {
-  color: AliceBlue;
+  color: #393f4d;
 }
 
 .content {
   padding: 40px;
   position: relative;
-  top: 150px;
+  top: 0px;
   /* Old browsers */
-  background: #141E30;
+  background: #f9f8fd;
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  /* background: -webkit-linear-gradient(-45deg, #35577D, #141E30); */
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(-45deg, #35577D, #141E30);
+  /* background: linear-gradient(-45deg, #35577D, #141E30); */
 
 }
 
@@ -80,10 +81,23 @@ a {
   background-image: url("https://www.ars.usda.gov/ARSUserFiles/60660500/cornear1.jpg");
   background-size: cover;
   background-position: center;
-  height: 190px;
-  position: fixed;
+  height: 150px;
+  position: relative;
   width: 100%;
   z-index: 10;
+}
+
+.find {
+  height: 50px;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+  top: 0px;
+  background: #feda6a;
+  padding-top: 10px;
+  border-bottom: solid;
+  border-top: solid;
+  border-color: #393f4d;
 }
 
 .caption {
@@ -97,7 +111,7 @@ a {
   position: relative;
   top: 100%;
   width: 40%;
-  background-color: white;
+  background-color: #e1e8f0;
   color: black;
   opacity: 0.75;
 }
@@ -108,17 +122,17 @@ a {
   box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
   float: left;
   width: 50px;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 .byline {
   font-family: Helvetica, sans-serif;
-  color: rgba(255, 255, 255, 0.5);
+  color: #393f4d;
   float: left;
   font-size: 14px;
   padding-left: 10px;
   text-transform: uppercase;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 .article {
@@ -127,15 +141,12 @@ a {
 
 .headline {
   font-size: 2em;
-  padding-top: 100px;
-  padding-bottom: 10px;
+  padding-top: 120px;
+  padding-bottom: 30px;
 }
 
 .statement {
   background-color: inherit;
-  border-style: none;
-  border-width: 1px;
-  border-color: red;
   min-height: 50px;
   max-height: 400px;
   min-width: 400px;
@@ -158,6 +169,21 @@ a {
 
 .rectangle {
   display: inline-block;
-  width: 20%;
-  height: 160px;
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flexcontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.highlight {
+  color: #e62739;
 }
