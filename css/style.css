@@ -26,26 +26,26 @@ body {
 
 h1 {
   color: #1d1e22;
-  font-size: 100px;
+  font-size: 50px;
   padding-top: 0px;
   padding-bottom: 0px;
   width: 100%;
-  font-family: Georgia;
-  text-align: center;
+  font-family: Helvetica;
+  text-align: left;
 }
 
 h2 {
   border-bottom: solid;
   color: #1d1e22;
   font-weight: 100;
-  font-size: 50px;
+  font-size: 25px;
   line-height: 50px;
   padding-top: 10px;
   padding-bottom: 30px;
   text-align: left;
   height: 50px;
   width: 100%;
-  font-family: Georgia;
+  font-family: Helvetica;
   margin-bottom: 20px;
   border-bottom-color: #d4d4dc;
 }
@@ -56,7 +56,7 @@ p {
   text-align: left;
   width: 100%;
   font-family: Helvetica;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -81,14 +81,14 @@ a {
   background-image: url("https://www.ars.usda.gov/ARSUserFiles/60660500/cornear1.jpg");
   background-size: cover;
   background-position: center;
-  height: 150px;
+  height: 75px;
   position: relative;
   width: 100%;
   z-index: 10;
 }
 
 .find {
-  height: 50px;
+  height: 25px;
   position: relative;
   width: 100%;
   z-index: 10;
@@ -103,9 +103,9 @@ a {
 .caption {
   display: block;
   font-family: 'Playfair Display', serif;
-  font-size: 14px;
+  font-size: 10px;
   font-style: oblique;
-  line-height: 14px;
+  line-height: 10px;
   margin-left: 0px;
   padding-left: 2px;
   position: relative;
@@ -113,7 +113,7 @@ a {
   width: 40%;
   background-color: #e1e8f0;
   color: black;
-  opacity: 0.75;
+  opacity: 0;
 }
 
 .writer-img {
@@ -141,16 +141,16 @@ a {
 
 .headline {
   font-size: 2em;
-  padding-top: 120px;
+  padding-top: 60px;
   padding-bottom: 30px;
 }
 
 .statement {
   background-color: inherit;
-  min-height: 50px;
-  max-height: 400px;
-  min-width: 400px;
-  max-width: 800px;
+  min-height: 25px;
+  max-height: 200px;
+  min-width: 200px;
+  max-width: 400px;
   padding-bottom: 20px;
   margin: 0 auto;
   overflow: auto;
@@ -160,7 +160,7 @@ a {
 
 .articleparagraph {
   display: inline-block;
-  max-height: 300px;
+  max-height: 150px;
   min-width: 10%;
   max-width: 100%;
   overflow: auto;
@@ -169,8 +169,8 @@ a {
 
 .rectangle {
   display: inline-block;
-  width: 200px;
-  height: 50px;
+  width: 100px;
+  height: 25px;
   font-size: 30px;
   text-align: center;
 }
