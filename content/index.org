@@ -1140,21 +1140,21 @@ Lactation and Its Association With Host Phenotype. /Front Microbiol/.
 
 ** Corrections
 *** Kevin Dudley ^{4}
-[fn:38]Change from: Kevin Dudley ^{4}
+[fn:38]Changed from: Kevin Dudley ^{4}
 *** 60% to 70%
-[fn:39]Change from: 60% to 70%
+[fn:39]Changed from: 60% to 70%
 *** stomach compartment in
-[fn:40]Change from: stomach compartment in
+[fn:40]Changed from: stomach compartment in
 *** DM
-[fn:42] Change from: DM
+[fn:42] Changed from: DM
 *** Microbial colonisation of fodder particles in the rumen
-[fn:41]Change from: Microbial colonisation of fodder particles in the rumen
+[fn:41]Changed from: Microbial colonisation of fodder particles in the rumen
 *** 72 h of incubation
-[fn:43] Change from: 72 h of incubation
+[fn:43] Changed from: 72 h of incubation
 *** data not shown in
-[fn:44] Change from: data not shown in
+[fn:44] Changed from: data not shown in
 *** The proportion of Fibrobacteres was significantly higher in sugarcane bagasse than in Lucerne hay samples at 24 h of incubation, and Lucerne hay had a higher abundance of Tenericutes at 8, 12, and 18 h of incubation than sugarcane bagasse
-[fn:45] Change from: The proportion of Fibrobacteres was significantly higher in sugarcane bagasse than in Lucerne hay samples at 24 h of incubation, and Lucerne hay had a higher abundance of Tenericutes at 8, 12, and 18 h of incubation than sugarcane bagasse
+[fn:45] Changed from: The proportion of Fibrobacteres was significantly higher in sugarcane bagasse than in Lucerne hay samples at 24 h of incubation, and Lucerne hay had a higher abundance of Tenericutes at 8, 12, and 18 h of incubation than sugarcane bagasse
 ** Comments
 *** KJD1
 [fn:1] Can this sentence be simplified?
