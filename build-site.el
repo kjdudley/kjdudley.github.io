@@ -30,14 +30,14 @@
 	     :html-doctype "html5"
 	     :headline-levels 2
 	     :html-html5-fancy t
-	     :recusive t
+	     :recursive t
 	     :base-directory "./content"
 	     :publishing-directory "./public"
 	     :publishing-function 'org-html-publish-to-tufte-html
 	     :with-author nil
 	     :with-creator t
 	     :with-toc nil
-	     :with-footnotes t
+	     ;;:with-footnotes t
 	     :section-numbers nil
 	     :time-stamp-file nil)))
 
