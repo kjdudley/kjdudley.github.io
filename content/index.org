@@ -138,7 +138,7 @@ feed intake, and daily body weight gain in ruminants (Cammack et al.
 Maintaining the productivity of ruminant livestock depends upon factors
 that influence the rumen microbiome, including fodder type, composition,
 quality, and quantity (Lengowski et al. 2016). Fodder type is well-known
-as the principal factor affecting rumination time, [[KJD2][rumen fermentation]][fn:: Is rumen fermentation the correct terminology?],
+as the principal factor affecting rumination time, [[KJD2][rumen fermentation]][fn:2],
 and ruminant performance and productivity (Liu et al. 2016). Bagasse,
 the main sugar industry by-product, is the lignocellulosic fibre, mostly
 composed of cellulose, hemicellulose, and lignin, that remains after the
@@ -1136,11 +1136,11 @@ Lactation and Its Association With Host Phenotype. /Front Microbiol/.
 *** The proportion of Fibrobacteres was significantly higher in sugarcane bagasse than in Lucerne hay samples at 24 h of incubation, and Lucerne hay had a higher abundance of Tenericutes at 8, 12, and 18 h of incubation than sugarcane bagasse
 ** Comments
 *** KJD1
-  Can this sentence be simplified?
+[fn:1]  Can this sentence be simplified?
 *** KJD2
-  Is rumen fermentation the correct terminology?
+[fn:2]  Is rumen fermentation the correct terminology?
 *** KJD3
-  Can this section be shortened by referring to previous papers?
+[fn:3]  Can this section be shortened by referring to previous papers?
 *** KJD4
   Is this kit suitable for rumen microbiome analysis - references?
 *** KJD5
@@ -1212,4 +1212,3 @@ Lactation and Its Association With Host Phenotype. /Front Microbiol/.
 
 * Footnotes
 
-[fn:1] Can this sentence be simplified?
