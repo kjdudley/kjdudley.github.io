@@ -19,8 +19,8 @@
 (setq org-html-validation-link nil
       org-html-head-include-scripts nil
       org-html-head-include-default-style nil
-      org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple-v1.css\" />")
-      ;;org-html-head "<link rel=\"stylesheet\" type \"text/css\" href=\"../tufte.css\" />")
+      ;;org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple-v1.css\" />")
+      org-html-head "<link rel=\"stylesheet\" type \"text/css\" href=\"tufte.css\" />")
 
 ;; Define the publishing project
 (setq org-publish-project-alist
@@ -33,7 +33,7 @@
 	     :recusive t
 	     :base-directory "./content"
 	     :publishing-directory "./public"
-	     :publishing-function 'org-html-publish-to-html
+	     :publishing-function 'org-html-publish-to-tufte-html
 	     :with-author nil
 	     :with-creator t
 	     :with-toc nil
