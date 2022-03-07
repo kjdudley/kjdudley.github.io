@@ -1,8 +1,8 @@
-#+STARTUP: nofninline
+#+HTML_HEAD: <link rel="stylesheet" href="tufte.css" type="text/css" />
 
 * *Structure and dynamics of the bacterial communities colonising low- and high-quality fodder in the bovine rumen*
 
-Mahsa Abbasabadi ^{1,4}, Paul Whatmore ^{2}, Victoria Coyne ^{3}, Roberto Barrero Gumiel ^{2}, Junior Te'o ^{4}, Ian O'Hara ^{1,5}, [[Kevin Dudley ^{4}][Kevin J. Dudley ^{3,4}]], Karen Harper ^{6}, and Mark D. Harrison ^{1,4*}
+Mahsa Abbasabadi ^{1,4}, Paul Whatmore ^{2}, Victoria Coyne ^{3}, Roberto Barrero Gumiel ^{2}, Junior Te'o ^{4}, Ian O'Hara ^{1,5}, [[Kevin Dudley ^{4}][Kevin J. Dudley ^{3,4}]][fn:38], Karen Harper ^{6}, and Mark D. Harrison ^{1,4*}
 
 ^{1} Centre for Agriculture and the Bioeconomy, Faculty of Science,
 Queensland University of Technology, 2 George Street, Brisbane,
@@ -77,7 +77,7 @@ microbiome, bacterial community, fibre digestion, low-quality fodder
 
 * *1. Introduction*
 
-The global demand for animal products is projected to increase by [[60% to 70%][60-70%]] 
+The global demand for animal products is projected to increase by [[60% to 70%][60-70%]][fn:39] 
 in 2050 due to human population growth; hence, additional fodder
 will be required to meet the projected increased demand for animal
 products. However, fodder production is challenged by food-feed
@@ -95,7 +95,7 @@ production sector; but there is limited information describing the
 direct comparison of digestion and colonisation of low- and high-quality
 fodders in the rumen.
 
-The rumen is the first and largest of the [[stomach compartment in][stomach compartments in]]
+The rumen is the first and largest of the [[stomach compartment in][stomach compartments in]][fn:40]
 ruminants, and harbours a highly diverse, complex community of obligate
 anaerobic bacteria, fungi, protozoa, and archaea. Rumen microorganisms
 work synergistically to break down and convert fodder particles into
@@ -110,9 +110,9 @@ total ruminal bacteria population and produce most of the enzymes for
 the digestion of fodders in ruminants (Liu et al. 2016). The attachment
 and colonisation of rumen bacteria to fodder particles is essential for
 the establishment of the complex microbial community required for their
-breakdown (Liu et al. 2016). [[KJD1][Therefore, understanding the mechanism of bacterial attachment and the relationship between fodder digestion and colonisation by rumen bacteria is the stepping stone for the development of methods to increase fodder use efficiency in ruminants through adding feed additives such as enzymes and probiotics and thermochemical pretreatment of low-quality fodders (Mizrahi and Jami 2018, Du et al.2019, Moraïs and Mizrahi 2019, Firkins 2021).]] [fn:1]
+breakdown (Liu et al. 2016). [[KJD1][Therefore, understanding the mechanism of bacterial attachment and the relationship between fodder digestion and colonisation by rumen bacteria is the stepping stone for the development of methods to increase fodder use efficiency in ruminants through adding feed additives such as enzymes and probiotics and thermochemical pretreatment of low-quality fodders (Mizrahi and Jami 2018, Du et al.2019, Moraïs and Mizrahi 2019, Firkins 2021).]][fn:1]
 
-[[Microbial colonisation of fodder particles in the rumen][It was previously shown that microbial colonisation of fodder particles in the rumen]] involves three
+[[Microbial colonisation of fodder particles in the rumen][It was previously shown that microbial colonisation of fodder particles in the rumen]][fn:41] involves three
 main steps; (i) displacement of the epiphytic microbial community by
 rumen microorganisms (<1 h incubation), (ii) establishment of a primary
 colonising community of generalist microorganisms that metabolise
@@ -132,7 +132,7 @@ fodder types with different quality and its correlation with changes in
 the chemical composition of fodder during incubation in the rumen is
 still limited. Differences in the composition of microbial communities
 colonising fodders with different quality can cause shifts in the
-microbial metabolic networks which ultimately can affect the [[DM][Dry matter (DM)]]
+microbial metabolic networks which ultimately can affect the [[DM][Dry matter (DM)]][fn:42]
 digestibility, rate of short-chain fatty acids and methane production,
 feed intake, and daily body weight gain in ruminants (Cammack et al.
 2018, Snelling et al. 2019).
@@ -211,7 +211,9 @@ Sigma-Aldrich, respectively. Polyester bags (10 × 24 cm, pore size of 48
 µm) for /in situ/ digestion were purchased from Allied Filter Fabrics
 Corp, Australia.
 
-** [[KJD3][*2.2 Fodder compositional analysis*]] [fn:3]
+** [[KJD3][*2.2 Fodder compositional analysis*]]
+
+COMMENT[fn:3]
 
 Fodder samples were dried at 45 °C for 48 h and milled using a Retsch
 SM100 hammer mill (Retsch GmBH, Germany) fitted with a 2 mm sieve. Water
@@ -284,7 +286,7 @@ colonisation of fodder. The /Bos indicus/ steers were fed on green couch
 grass and sorghum hay as supplement /ad libitum/. Each steer hosted 60
 bags of fodder ((2 substrates × 10 time points) × 6 replicates). The
 nylon bags were collected from the rumen after 4, 8, 12, 18, 24, 32, 40,
-48, 60, [[72 h of incubation][and 72 h of incubation]], washed thoroughly with water until the water
+48, 60, [[72 h of incubation][and 72 h of incubation]][fn:43], washed thoroughly with water until the water
 was clear, and sub-samples of the residual material in each bag were
 collected and stored at -80 °C for DNA extraction and full-length 16S
 PacBio DNA sequencing. The bags and their remaining contents were then
@@ -307,7 +309,7 @@ Corp, US) as described above.
 ** *2.5 DNA extraction*
 
 Total genomic DNA from fodder, fermented fodder, and rumen fluid samples
-was extracted using the [[KJD4][Soil DNA Isolation Mini Kit (FAVORGEN)]] [fn:4] as per
+was extracted using the [[KJD4][Soil DNA Isolation Mini Kit (FAVORGEN)]][fn:4] as per
 the manufacturer's instructions and cell disruption during the DNA
 extraction procedure was undertaken using a Qiagen TissueLyser II
 (Retsch, 30 Hz). The quantity and quality of total genomic DNA were
@@ -416,19 +418,21 @@ Lucerne hay fibres were similar.
 
 Sugarcane bagasse and Lucerne hay were incubated in the bovine rumen and
 samples were removed after 4 -- 72 h for DM, NDF, and ADF analyses
-(Figure 1). [[KJD5][The results of these analyses demonstrated that the digestion kinetics of sugarcane bagasse and Lucerne hay were significantly different]]. [fn:5]
+(Figure 1). [[KJD5][The results of these analyses demonstrated that the digestion kinetics of sugarcane bagasse and Lucerne hay were significantly different]].[fn:5]
 DM and fibre (NDF and ADF) digestion in
 sugarcane bagasse were similar in bovine rumen fluid because of the
-relatively high (89%) fibre content therein. [[KJD6][Sugarcane bagasse fibre digestion occurred in three phases: an initial, relatively rapid phase from 0 -- 12 h, an intermediate phase from 12 -- 40 h, and a relatively slow phase from 40 -- 72 h (Figure 1, Panel B and C)]]. [fn:6]
+relatively high (89%) fibre content therein. [[KJD6][Sugarcane bagasse fibre digestion occurred in three phases: an initial, relatively rapid phase from 0 -- 12 h, an intermediate phase from 12 -- 40 h, and a relatively slow phase from 40 -- 72 h (Figure 1, Panel B and C)]].[fn:6]
 It should be noted
 that digestion of sugarcane bagasse did not reach a maximum (/i.e./,
-so-called plateau phase) within 72 h. [[KJD7][In contrast, the DM and fibre digestion kinetics in Lucerne hay were significantly different because of relatively high (~40%) initial dry matter digestion without fibre digestion and that digestion of Lucerne hay reached a maximum at 48 h]] [fn:7]
+so-called plateau phase) within 72 h. [[KJD7][In contrast, the DM and fibre digestion kinetics in Lucerne hay were significantly different because of relatively high (~40%) initial dry matter digestion without fibre digestion and that digestion of Lucerne hay reached a maximum at 48 h]][fn:7]
 (Figure 1). Lucerne hay fibre digestion occurred in four phases: a
 intitial solubilisation phase (4 h), a relatively rapid digestion phase
 from 4 -- 12 h, a relatively slow digestion phase from 12 -- 32 h, and a
 plateau phase from 32 -- 72 h (Figure 1, Panel B and C).
 
-** [[KJD8][*3.2 Temporal changes in the bacterial community during bovine rumen degradation of sugarcane bagasse and Lucerne hay*]] [fn:8]
+** [[KJD8][*3.2 Temporal changes in the bacterial community during bovine rumen degradation of sugarcane bagasse and Lucerne hay*]]
+
+COMMENT[fn:8]
 
 Temporal changes in the bacterial community during sugarcane bagasse and
 Lucerne hay digestion were measured using full-length 16S rRNA gene
@@ -443,11 +447,11 @@ individual species.
 
 The absolute (alpha) diversity of the bacterial communities in the
 fodder samples from /in situ/ digestion in bovine rumen fluid was
-expressed numerically as Shannon's and [[KJD9][Observed ASVs]] [fn:9] indices (Figure 2).
+expressed numerically as Shannon's and [[KJD9][Observed ASVs]][fn:9] indices (Figure 2).
 The α-diversity of the bacterial communities on the surface of sugarcane
 bagasse and Lucerne hay particles increased significantly after
 incubation in the rumen relative to the epiphytic (0 h) bacterial
-community ([[data not shown in][data not shown]]) (/P/ < 0.04). The average diversity of the
+community ([[data not shown in][data not shown]])[fn:44] (/P/ < 0.04). The average diversity of the
 bacterial communities on sugarcane bagasse was significantly lower than
 Lucerne hay during /in situ/ incubation in the rumen, (/P/ < 0.001)
 (Figure 2A).
@@ -463,7 +467,7 @@ of bacterial communities on sugarcane bagasse changed variable after 40
 h of incubation (/P/ < 0.01). The α-diversity of bacterial communities
 adherent to Lucerne hay samples increased from 4 -- 18 h (/P/ < 0.02)
 and then did not change significantly between 18 - 72 h (/P/ > 0.1)
-except between 18 h to 48 h and 48 h to 60 h (/P/ < 0.01). [[KJD10][Finally, the alpha diversity of the planktonic bacteria did not differ significantly during the 72 h of the experiment (/P/ = 0.1)]] [fn:10],
+except between 18 h to 48 h and 48 h to 60 h (/P/ < 0.01). [[KJD10][Finally, the alpha diversity of the planktonic bacteria did not differ significantly during the 72 h of the experiment (/P/ = 0.1)]][fn:10],
 indicating that
 differences in the absolute diversity of the microbial communities on
 low- and high-quality fodder were a function of their inherent physical,
@@ -498,7 +502,7 @@ sugarcane bagasse was correlated to a decrease in bacterial diversity,
 while the bacterial complexity associated with Lucerne hay increased
 with increasing NDF digestibility (Figure S1).
 
-[[KJD11][** Beta diversity analysis]] [fn:11]
+COMMENT[fn:11]
 
 The relative differences in the composition of the microbial communities
 (β diversity) in the fodder samples between timepoints during digestion
@@ -512,7 +516,7 @@ not shown in the figure). The composition of the bacterial communities
 on sugarcane bagasse and Lucerne hay changed significantly over time
 (/P/ = 0.001) (Figure 3A and 3B) and sugarcane bagasse had a distinct
 bacterial community from those on the surface of Lucerne hay in each
-incubation timepoint (/P/ < 0.04). Overall, the bacterial communities colonising sugarcane bagasse were significantly different from the colonising microbiota of Lucerne hay (/P/ = 0.001) [[KJD12][(Figure S2)]] [fn:12]. The
+incubation timepoint (/P/ < 0.04). Overall, the bacterial communities colonising sugarcane bagasse were significantly different from the colonising microbiota of Lucerne hay (/P/ = 0.001) [[KJD12][(Figure S2)]][fn:12]. The
 comparison of beta diversity of bacterial communities colonising
 sugarcane bagasse in different phases of digestion revealed that
 bacterial communities were distinct in each phase of digestion (/P/ =
@@ -563,24 +567,26 @@ significantly in abundance during incubation in the rumen were
 /Rikenellaceae RC9/ gut group, /Ruminococcus 1/, /Treponema 2/,
 /Saccharofermentans/, the /Lachnospiraceae XPB1014 group/ (/P/ < 0.05).
 
-[[KJD13][A comparison of the bacterial communities colonising sugarcane bagasse during incubation in the rumen revealed that the relative abundance of Firmicutes and Bacteroidetes remained relatively high during incubation and their relative abundance did not change consistently during the incubation. The relative abundance of Fibrobacteres increased significantly between 18 h and 32 h compared to 4 h incubation (/P/ < 0.02) and the relative abundance of Spirochaetes increased significantly between 24 h and 72 h incubation compared to 4 h (/P/ < 0.03). The relative abundance of Firmicutes decreased significantly (/P/ = 0.001) on Lucerne hay during /in situ/ incubation, while Bacteroidetes increased in abundance (/P/ = 0.001). The relative abundance of Spirochaetes increased significantly on Lucerne hay between 12 h and 48 h compared with 4 h of incubation (/P/ < 0.032) and a higher abundance of Tenericutes was observed between 8 h and 24 h compared to 4 h of incubation (/P/ < 0.04).]] [fn:13]
+[[KJD13][A comparison of the bacterial communities colonising sugarcane bagasse during incubation in the rumen revealed that the relative abundance of Firmicutes and Bacteroidetes remained relatively high during incubation and their relative abundance did not change consistently during the incubation. The relative abundance of Fibrobacteres increased significantly between 18 h and 32 h compared to 4 h incubation (/P/ < 0.02) and the relative abundance of Spirochaetes increased significantly between 24 h and 72 h incubation compared to 4 h (/P/ < 0.03). The relative abundance of Firmicutes decreased significantly (/P/ = 0.001) on Lucerne hay during /in situ/ incubation, while Bacteroidetes increased in abundance (/P/ = 0.001). The relative abundance of Spirochaetes increased significantly on Lucerne hay between 12 h and 48 h compared with 4 h of incubation (/P/ < 0.032) and a higher abundance of Tenericutes was observed between 8 h and 24 h compared to 4 h of incubation (/P/ < 0.04).]][fn:13]
 
-The composition of bacterial genera colonising sugarcane bagasse changed during incubation in the rumen [[KJD14][(Figure 5)]] [fn:14]. /Christensenellaceae R-7
+The composition of bacterial genera colonising sugarcane bagasse changed during incubation in the rumen [[KJD14][(Figure 5)]][fn:14]. /Christensenellaceae R-7
 group/, /Prevotella 1/, and /Ruminococcus 1/ were the most abundant
 bacterial genera on the surface of sugarcane bagasse after 4 h of
 incubation in the rumen. The relative abundance of /Prevotella 1/
 decreased significantly during the incubation (/P/ = 0.001), while the
 relative abundance of /Christensenellaceae R-7 group/ remained
-relatively unchanged [[KJD15][(/P/ = 0.06)]] [fn:15]. The relative abundance of
+relatively unchanged [[KJD15][(/P/ = 0.06)]][fn:15]. The relative abundance of
 /Ruminococcus 1/ remained relatively high between 4 h and 32 h of
 incubation; however, its relative abundance decreased significantly
-after 40 h compared with 4 h of incubation (/P/ < 0.002). The relative abundance of /Lachnospiraceae XPB1014 group/ remained relatively unchanged between 8 h and 32 h [[KJD16][(/P/ > 0.0)]] [fn:16] but decreased significantly after 40 h compared to 8 h of incubation (/P/ < 0.03). /Rikenellaceae RC9 gut group/ and uncultured rumen bacterium in the /p-251-o5/ /gut group/ family were enriched after 12 h compared with 4 h [[KJD17][(/P/ <)]] [fn:17].
+after 40 h compared with 4 h of incubation (/P/ < 0.002). The relative abundance of /Lachnospiraceae XPB1014 group/ remained relatively unchanged between 8 h and 32 h [[KJD16][(/P/ > 0.0)]][fn:16] but decreased significantly after 40 h compared to 8 h of incubation (/P/ < 0.03). /Rikenellaceae RC9 gut group/ and uncultured rumen bacterium in the /p-251-o5/ /gut group/ family were enriched after 12 h compared with 4 h [[KJD17][(/P/ <)]][fn:17].
 /Treponema 2/ increased significantly in abundance after 24 h (/P/ <
 0.02).
 
-[[KJD18][As was the case with rumen-incubated sugarcane bagasse samples, the composition of bacterial genera colonising Lucerne hay changed significantly during rumen digestion (Figure 5). Bacteria from the genera /Christensenellaceae R-7 group/, /Butyrivibrio 2, Prevotella 1/, and /Lachnospiraceae XPB1014 group/ were dominant on the surface of Lucerne hay after 4 h of digestion. The relative abundance of /Prevotella 1/ remained unchanged between 4 -- 48 h (/P/ > 0.1) and decreased significantly after 48 h incubation compared to 8 h of incubation (/P/ < 0.009). The relative abundance of /Christensenellaceae R-7 group/ remained relatively high during the incubation, though its relative abundance decreased at 8 h compared to 4 h incubation (/P/ = 0.045), and then remained unchanged during the incubation (/P/ > 0.2). /Butyrivibrio 2/ remained relatively abundant throughout digestion, although it decreased significantly after 48 h compared with 4 h (/P/ < 0.04). /Rikenellaceae RC9 gut group/ was enriched after 24 h incubation in the rumen (/P/ < 0.03) and /Saccharofermentans/ increased significantly in abundance after 18 h compared to 4 h (/P/ < 0.03). The relative abundance of /Treponema 2/ increased significantly between 12 and 48 h compared to 4 h (/P/ < 0.029) and decreased significantly after 60 h compared to 32 h (/P/ < 0.04). The relative abundance of /Ruminococcus 1/ increased between 4 h and 24 h but decreased significantly after 48 h compared to 24 h (P < 0.02). The relative abundance of /Lachnospiraceae XPB1014 group/ remained high between 4 h and 18 h but decreased significantly after 48 h compared to 4 h (/P/ < 0.04). /Lachnospiraceae NK4A136 group/ were prevalent at 4 and 8 h of incubation but their relative abundance decreased significantly after 12 h (/P/ < 0.05)]] [fn:18].
+[[KJD18][As was the case with rumen-incubated sugarcane bagasse samples, the composition of bacterial genera colonising Lucerne hay changed significantly during rumen digestion (Figure 5). Bacteria from the genera /Christensenellaceae R-7 group/, /Butyrivibrio 2, Prevotella 1/, and /Lachnospiraceae XPB1014 group/ were dominant on the surface of Lucerne hay after 4 h of digestion. The relative abundance of /Prevotella 1/ remained unchanged between 4 -- 48 h (/P/ > 0.1) and decreased significantly after 48 h incubation compared to 8 h of incubation (/P/ < 0.009). The relative abundance of /Christensenellaceae R-7 group/ remained relatively high during the incubation, though its relative abundance decreased at 8 h compared to 4 h incubation (/P/ = 0.045), and then remained unchanged during the incubation (/P/ > 0.2). /Butyrivibrio 2/ remained relatively abundant throughout digestion, although it decreased significantly after 48 h compared with 4 h (/P/ < 0.04). /Rikenellaceae RC9 gut group/ was enriched after 24 h incubation in the rumen (/P/ < 0.03) and /Saccharofermentans/ increased significantly in abundance after 18 h compared to 4 h (/P/ < 0.03). The relative abundance of /Treponema 2/ increased significantly between 12 and 48 h compared to 4 h (/P/ < 0.029) and decreased significantly after 60 h compared to 32 h (/P/ < 0.04). The relative abundance of /Ruminococcus 1/ increased between 4 h and 24 h but decreased significantly after 48 h compared to 24 h (P < 0.02). The relative abundance of /Lachnospiraceae XPB1014 group/ remained high between 4 h and 18 h but decreased significantly after 48 h compared to 4 h (/P/ < 0.04). /Lachnospiraceae NK4A136 group/ were prevalent at 4 and 8 h of incubation but their relative abundance decreased significantly after 12 h (/P/ < 0.05)]][fn:18].
 
-*** [[KJD19][Comparison of bacterial communities adherent to sugarcane bagasse and Lucerne hay]] [fn:19]
+*** [[KJD19][Comparison of bacterial communities adherent to sugarcane bagasse and Lucerne hay]]
+
+COMMENT[fn:19]
 
 The overall bacterial composition on the surface of sugarcane bagasse
 and Lucerne hay during incubation in the rumen was characterised (Figure
@@ -596,11 +602,13 @@ Bacteroidetes was observed in Lucerne hay samples at 4 h of incubation
 compared with sugarcane bagasse (/P/ < 0.04). However, no significant
 differences in the abundance of Firmicutes and Bacteroidetes were
 observed between Lucerne hay and sugarcane bagasse after 8 h incubation
-(/P/ > 0.05). [[The proportion of Fibrobacteres was significantly higher in sugarcane bagasse than in Lucerne hay samples at 24 h of incubation, and Lucerne hay had a higher abundance of Tenericutes at 8, 12, and 18 h of incubation than sugarcane bagasse][The proportion of Fibrobacteres was significantly higher in sugarcane bagasse at 24 h of incubation, whereas Lucerne hay had a higher abundance of Tenericutes at 8, 12, and 18 h of incubation]] (/P/ < 0.05).
+(/P/ > 0.05). [[The proportion of Fibrobacteres was significantly higher in sugarcane bagasse than in Lucerne hay samples at 24 h of incubation, and Lucerne hay had a higher abundance of Tenericutes at 8, 12, and 18 h of incubation than sugarcane bagasse][The proportion of Fibrobacteres was significantly higher in sugarcane bagasse at 24 h of incubation, whereas Lucerne hay had a higher abundance of Tenericutes at 8, 12, and 18 h of incubation]][fn:45] (/P/ < 0.05).
 
-[[KJD20][A higher abundance of /Prevotella 1/, /Ruminococcus 1/, and /Rikenellaceae RC9 gut group/ were observed in sugarcane bagasse samples (/P/ lt 0.05) at 4 h of incubation, while /Butyrivibrio 2/, /Christensenellaceae R-7 group/, and /Lachnospiraceae XPB1014 group/ were more abundant in Lucerne hay samples (/P/ lt 0.03). Sugarcane bagasse samples presented a significantly higher percentage of /Saccharofermentans/ after 8 h of incubation compared with Lucerne hay (/P/ lt 0.05), while Lucerne hay samples had a significantly higher abundance of /Butyrivibrio 2/ after 8 h (/P/ lt 0.1). /Anaeroplasma/ was significantly more abundant on the surface of Lucerne hay than sugarcane bagasse between 8 h and 18 h of incubation (/P/ lt 0.04). /Fibrobacter/ was significantly more abundant on the surface of sugarcane bagasse compared with Lucerne hay at 24 h of incubation. Sugarcane bagasse had a significantly higher percentage of /Treponema 2/ at 48 h, while /Treponema 2/ was significantly more abundant in Lucerne hay samples at 18 h of incubation.]] [fn:20]
+[[KJD20][A higher abundance of /Prevotella 1/, /Ruminococcus 1/, and /Rikenellaceae RC9 gut group/ were observed in sugarcane bagasse samples (/P/ lt 0.05) at 4 h of incubation, while /Butyrivibrio 2/, /Christensenellaceae R-7 group/, and /Lachnospiraceae XPB1014 group/ were more abundant in Lucerne hay samples (/P/ lt 0.03). Sugarcane bagasse samples presented a significantly higher percentage of /Saccharofermentans/ after 8 h of incubation compared with Lucerne hay (/P/ lt 0.05), while Lucerne hay samples had a significantly higher abundance of /Butyrivibrio 2/ after 8 h (/P/ lt 0.1). /Anaeroplasma/ was significantly more abundant on the surface of Lucerne hay than sugarcane bagasse between 8 h and 18 h of incubation (/P/ lt 0.04). /Fibrobacter/ was significantly more abundant on the surface of sugarcane bagasse compared with Lucerne hay at 24 h of incubation. Sugarcane bagasse had a significantly higher percentage of /Treponema 2/ at 48 h, while /Treponema 2/ was significantly more abundant in Lucerne hay samples at 18 h of incubation.]][fn:20]
 
-*** [[KJD21][Correlation between degradation of sugarcane bagasse and Lucerne hay and bacterial colonisation during /in situ/ incubation]] [fn:21]
+*** [[KJD21][Correlation between degradation of sugarcane bagasse and Lucerne hay and bacterial colonisation during /in situ/ incubation]]
+
+COMMENT[fn:21]
 
 The bacterial genera in the communities on the surface of sugarcane
 bagasse and Lucerne hay changed significantly in abundance between the
@@ -633,7 +641,9 @@ The relative abundance of /Ruminococcus 1/, /Treponema 2/, /Butyrivibrio
 2/, and /Prevotella 1/ decreased significantly in abundance in the
 plateau phase compared to slow digestion phase (/P/ < 0.001).
 
-*** [[KJD22][Dynamics of changes in the planktonic bacterial communities]] [fn:22]
+*** [[KJD22][Dynamics of changes in the planktonic bacterial communities]]
+
+COMMENT[fn:22]
 
 The planktonic bacterial communities at each incubation time of
 sugarcane bagasse and Lucerne hay in the bovine rumen were characterised
@@ -654,12 +664,12 @@ did not change in abundance between sampling timepoints (/P/ > 0.2).
 
 * *4. Discussion*
 
-[[KJD23][Understanding the composition of rumen microbial communities that colonise and proliferate on the surface of fodder particles is essential for understanding fodder digestion. It can ultimately lead to the development of novel methods to increase nutrient use efficiency in ruminants and improve animal productivity (Du et al. 2019). However, only limited studies have investigated the microbial community associated with fodder particles along the kinetics of fodder digestion in the bovine rumen. A comparison of microbial communities that colonise and degrade low- and high-quality fodders provides an opportunity to determine (i) diversity of bacterial communities that colonise low- and high-quality fodders in the bovine rumen, (ii) if the fibre-degrading microbial community in the rumen varies with the source of the fibre, (iii) if the microbial community degrading fibres in the rumen at different phases of fibre digestion vary with the source of fibre, and (iv) whether microbial communities that persist on fibres after fibre digestion has reached a maximum vary with the source of fibre.]] [fn:23]
+[[KJD23][Understanding the composition of rumen microbial communities that colonise and proliferate on the surface of fodder particles is essential for understanding fodder digestion. It can ultimately lead to the development of novel methods to increase nutrient use efficiency in ruminants and improve animal productivity (Du et al. 2019). However, only limited studies have investigated the microbial community associated with fodder particles along the kinetics of fodder digestion in the bovine rumen. A comparison of microbial communities that colonise and degrade low- and high-quality fodders provides an opportunity to determine (i) diversity of bacterial communities that colonise low- and high-quality fodders in the bovine rumen, (ii) if the fibre-degrading microbial community in the rumen varies with the source of the fibre, (iii) if the microbial community degrading fibres in the rumen at different phases of fibre digestion vary with the source of fibre, and (iv) whether microbial communities that persist on fibres after fibre digestion has reached a maximum vary with the source of fibre.]][fn:23]
 
-[[KJD24][The present study has used sufficient time intervals to identify multiple phases of fibre degradation, and subsequently identify the bacterial communities associated with fodder particles in each phase of digestion. Further, this is the first study that has used full-length 16S rRNA gene sequencing to identify the genera and species of bacteria colonising fodder particles in the bovine rumen.]] [fn:24]
+[[KJD24][The present study has used sufficient time intervals to identify multiple phases of fibre degradation, and subsequently identify the bacterial communities associated with fodder particles in each phase of digestion. Further, this is the first study that has used full-length 16S rRNA gene sequencing to identify the genera and species of bacteria colonising fodder particles in the bovine rumen.]][fn:24]
 
-[[KJD25][Sugarcane bagasse and Lucerne hay have significantly different chemical compositions. Lucerne hay contains 50 -- 70% non-lignocellulosic components including proteins, non-structural carbohydrates, and minerals which are readily digestible by a wide range of rumen microorganisms. Sugarcane bagasse is composed of gt90% lignocellulose and is degraded by a complex microbial community with cellulolytic activity in the rumen (Pinos-Rodríguez et al. 2002, Guilherme et al. 2015, Harrison 2016, Liu et al. 2016, Moraïs and Mizrahi 2019).]] [fn:25]
-[[KJD26][The differences in the chemical composition of sugarcane bagasse and Lucerne hay significantly affected the kinetics of digestion during incubation in the rumen. The kinetics of DM, NDF, and ADF digestion in sugarcane bagasse and Lucerne hay appeared to be multiphasic. The degradation kinetics of sugarcane bagasse by rumen microorganisms consisted of (i) a rapid digestion phase during which a significant increase in DM, NDF, and ADF digestibility was observed, (ii) an intermediate phase during which the degradation rate decreased, and (iii) a slow degradation phase during which the degradation rate decreased significantly and easily accessible nutrients from the fodder has been consumed. Compared with the sugarcane bagasse, the DM, NDF, and ADF digestibility of Lucerne hay consisted of four phases; including (i) a solubilisation phase in which an initial significant DM loss with no significant corresponding NDF and ADF digestibility in Lucerne hay samples occurred, (ii) a rapid digestion phase during which a significant DM, NDF and ADF digestibility occurred, (iii) a slow digestion phase with a significant decrease in the rate of degradation, and (v) a plateau phase during which no significant DM, NDF, and ADF digestibility was occurred]]. [fn:26]
+[[KJD25][Sugarcane bagasse and Lucerne hay have significantly different chemical compositions. Lucerne hay contains 50 -- 70% non-lignocellulosic components including proteins, non-structural carbohydrates, and minerals which are readily digestible by a wide range of rumen microorganisms. Sugarcane bagasse is composed of gt90% lignocellulose and is degraded by a complex microbial community with cellulolytic activity in the rumen (Pinos-Rodríguez et al. 2002, Guilherme et al. 2015, Harrison 2016, Liu et al. 2016, Moraïs and Mizrahi 2019).]][fn:25]
+[[KJD26][The differences in the chemical composition of sugarcane bagasse and Lucerne hay significantly affected the kinetics of digestion during incubation in the rumen. The kinetics of DM, NDF, and ADF digestion in sugarcane bagasse and Lucerne hay appeared to be multiphasic. The degradation kinetics of sugarcane bagasse by rumen microorganisms consisted of (i) a rapid digestion phase during which a significant increase in DM, NDF, and ADF digestibility was observed, (ii) an intermediate phase during which the degradation rate decreased, and (iii) a slow degradation phase during which the degradation rate decreased significantly and easily accessible nutrients from the fodder has been consumed. Compared with the sugarcane bagasse, the DM, NDF, and ADF digestibility of Lucerne hay consisted of four phases; including (i) a solubilisation phase in which an initial significant DM loss with no significant corresponding NDF and ADF digestibility in Lucerne hay samples occurred, (ii) a rapid digestion phase during which a significant DM, NDF and ADF digestibility occurred, (iii) a slow digestion phase with a significant decrease in the rate of degradation, and (v) a plateau phase during which no significant DM, NDF, and ADF digestibility was occurred]].[fn:26]
 
 Previous studies on rice straw, alfalfa hay, and wheat straw have
 demonstrated that the degradation kinetics of fodders in the rumen is
@@ -687,7 +697,7 @@ post-incubation timepoint of 4 h instead of 0.5 -- 1 h. In addition, the
 kinetics of NDF degradation of sugarcane bagasse consisted of three
 degradation phases with different rates of degradation which is likely
 because of longer incubation (72 h) in the rumen compared to rice straw
-(48 h). [[KJD27][While the kinetics of degradation of sugarcane bagasse and Lucerne hay in the rumen were consistent with those obtained with rice, barley, and wheat straws, alfalfa hay, and switchgrass, a large number of incubation timepoints used in the present study has provided additional phases of digestion for sugarcane bagasse and Lucerne hay.]] [fn:27]
+(48 h). [[KJD27][While the kinetics of degradation of sugarcane bagasse and Lucerne hay in the rumen were consistent with those obtained with rice, barley, and wheat straws, alfalfa hay, and switchgrass, a large number of incubation timepoints used in the present study has provided additional phases of digestion for sugarcane bagasse and Lucerne hay.]][fn:27]
 
 The present study aimed to understand the relationship between the
 degradation phases and dynamics of bacterial communities colonising
@@ -708,16 +718,17 @@ phases of fodders might correspond to (i) a first cluster of bacterial
 community that are involved in degradation of accessible amorphous
 regions of the fibre, and (ii) a secondary bacterial group that have
 potential crystalline cellulose-degrading capability (Moraïs and Mizrahi
-2019). [[KJD28][The present study confirms that incubation time has a significant impact on the fodder-associated bacterial communities, and there is a relationship between the DM, NDF, and ADF digestibility of sugarcane bagasse and Lucerne hay particles and dynamics of bacterial communities colonising sugarcane bagasse and Lucerne hay in the bovine rumen.]] [fn:28]
+2019). [[KJD28][The present study confirms that incubation time has a significant impact on the fodder-associated bacterial communities, and there is a relationship between the DM, NDF, and ADF digestibility of sugarcane bagasse and Lucerne hay particles and dynamics of bacterial communities colonising sugarcane bagasse and Lucerne hay in the bovine rumen.]][fn:28]
 
-[[KJD29][The initial rapid degradation phase of sugarcane bagasse was accompanied by bacterial taxa that play a significant role in plant fibre degradation. /Ruminococcus/ spp. are well-known for their ability to metabolise cellulose and hemicellulose by secreting cellulases, hemicellulases, and other oligosaccharide-degrading enzymes, and produce succinate, formate, and acetate (Flint et al. 2008, Khatoon et al. 2021). /Prevotella/ is one of the most abundant genera in the rumen which has an important role in lignocellulose degradation. Members of /Prevotella/ are significantly involved in the metabolism of starch, cellulose, xylan, pectin, and crude protein and produce acetate, propionate, and succinate (Jin et al. 2018, Zhu et al. 2021). /Christensenellaceae R-7 group/ were consistently abundant on the surface of sugarcane bagasse during the incubation in the rumen; however, their role in the rumen is still unknown (Yang et al. 2020). /Rikenellaceae RC9 gut group/ spp. are found to be involved in the degradation of structural carbohydrates (Zhou et al. 2021). The adhesion of /Prevotella/, /Ruminococcus/, and unclassified /Rikenellaceae/ has previously been reported on the surface of rice straw and alfalfa hay (Liu et al. 2016).]] [fn:29]
+[[KJD29][The initial rapid degradation phase of sugarcane bagasse was accompanied by bacterial taxa that play a significant role in plant fibre degradation. /Ruminococcus/ spp. are well-known for their ability to metabolise cellulose and hemicellulose by secreting cellulases, hemicellulases, and other oligosaccharide-degrading enzymes, and produce succinate, formate, and acetate (Flint et al. 2008, Khatoon et al. 2021). /Prevotella/ is one of the most abundant genera in the rumen which has an important role in lignocellulose degradation. Members of /Prevotella/ are significantly involved in the metabolism of starch, cellulose, xylan, pectin, and crude protein and produce acetate, propionate, and succinate (Jin et al. 2018, Zhu et al. 2021). /Christensenellaceae R-7 group/ were consistently abundant on the surface of sugarcane bagasse during the incubation in the rumen; however, their role in the rumen is still unknown (Yang et al. 2020). /Rikenellaceae RC9 gut group/ spp. are found to be involved in the degradation of structural carbohydrates (Zhou et al. 2021). The adhesion of /Prevotella/, /Ruminococcus/, and unclassified /Rikenellaceae/ has previously been reported on the surface of rice straw and alfalfa hay (Liu et al. 2016).]][fn:29]
 
-[[KJD30][The bacterial communities adherent to sugarcane bagasse particles in the intermediate degradation phase were significantly less diverse and were distinct compared to those in the initial degradation phase as demonstrated by the alpha and beta diversity, respectively. A significant decrease in the rate of NDF and ADF degradation of sugarcane bagasse in the second degradation phase was accompanied by a significant decrease in the abundance of /Prevotella 1/ and /Ruminococcus 1/, and a significant increase in the relative abundance of /Fibrobacter/, /Rikenellaceae RC9/ gut group, /Saccharofermentans/, and /Treponema 2/. /Fibrobacter/, a well-studied rumen bacteria, has high activity against crystalline cellulose and is able to solubilise complex plant cell wall polysaccharides (Terry et al. 2020). It is reported that /Treponema/ and /Fibrobacter/ synergistically work together; /Treponema/ is likely benefiting from the cross-feeding network created by /Fibrobacter/ (Xie et al. 2018). The increased abundance of /Fibrobacter/ and /Rikenellaceae RC9 gut group/ during the intermediate digestion phase may reflect the increased accessibility of cellulose occurred as a result of removal of cell wall matrix earlier in the rapid degradation phase. Previous studies have reported the prevalence of /Fibrobacter/ and /Treponema/ on rice straw, alfalfa, corn stover, barley straw, wheat straw, and switchgrass in the secondary colonising bacterial community (after 16 - 48 h of incubation) (Piao et al. 2014, Liu et al. 2016, Jin et al. 2018, Terry et al. 2020). The genus /Saccharofermentans/ has only one known species which is unable to degrade cellulose but can ferment glucose, sucrose, fructose, cellobiose, starch and produce acetate as the main end-product, and their abundance has been previously reported on rice straw, alfalfa hay, wheat straw, and perennial ryegrass (Huws et al. 2016, Liu et al. 2016, Cheng et al. 2017, Jin et al. 2018, Dai et al. 2021). The increased abundance of this genus might be due to utilisation of released sugars from cellulose degradation. The decrease in diversity and observed shift in bacterial taxa in the intermediate degradation phase reveals that bacterial specialists that can degrade recalcitrant structural carbohydrates become more abundant. These observations are consistent with rumen-incubated alfalfa hay and rice straw samples; Bacteria with more fibre-degrading role such as /Fibrobacter/, /Treponema/, unclassified /Bacteroidales/, and unclassified /Rikenellaceae/ were enriched during the second degradation phase (16 -- 48 h) (Liu et al. 2016).]] [fn:30]
+[[KJD30][The bacterial communities adherent to sugarcane bagasse particles in the intermediate degradation phase were significantly less diverse and were distinct compared to those in the initial degradation phase as demonstrated by the alpha and beta diversity, respectively. A significant decrease in the rate of NDF and ADF degradation of sugarcane bagasse in the second degradation phase was accompanied by a significant decrease in the abundance of /Prevotella 1/ and /Ruminococcus 1/, and a significant increase in the relative abundance of /Fibrobacter/, /Rikenellaceae RC9/ gut group, /Saccharofermentans/, and /Treponema 2/. /Fibrobacter/, a well-studied rumen bacteria, has high activity against crystalline cellulose and is able to solubilise complex plant cell wall polysaccharides (Terry et al. 2020). It is reported that /Treponema/ and /Fibrobacter/ synergistically work together; /Treponema/ is likely benefiting from the cross-feeding network created by /Fibrobacter/ (Xie et al. 2018). The increased abundance of /Fibrobacter/ and /Rikenellaceae RC9 gut group/ during the intermediate digestion phase may reflect the increased accessibility of cellulose occurred as a result of removal of cell wall matrix earlier in the rapid degradation phase. Previous studies have reported the prevalence of /Fibrobacter/ and /Treponema/ on rice straw, alfalfa, corn stover, barley straw, wheat straw, and switchgrass in the secondary colonising bacterial community (after 16 - 48 h of incubation) (Piao et al. 2014, Liu et al. 2016, Jin et al. 2018, Terry et al. 2020). The genus /Saccharofermentans/ has only one known species which is unable to degrade cellulose but can ferment glucose, sucrose, fructose, cellobiose, starch and produce acetate as the main end-product, and their abundance has been previously reported on rice straw, alfalfa hay, wheat straw, and perennial ryegrass (Huws et al. 2016, Liu et al. 2016, Cheng et al. 2017, Jin et al. 2018, Dai et al. 2021). The increased abundance of this genus might be due to utilisation of released sugars from cellulose degradation. The decrease in diversity and observed shift in bacterial taxa in the intermediate degradation phase reveals that bacterial specialists that can degrade recalcitrant structural carbohydrates become more abundant. These observations are consistent with rumen-incubated alfalfa hay and rice straw samples; Bacteria with more fibre-degrading role such as /Fibrobacter/, /Treponema/, unclassified /Bacteroidales/, and unclassified /Rikenellaceae/ were enriched during the second degradation phase (16 -- 48 h) (Liu et al. 2016).]][fn:30]
 
-[[KJD31][The slow degradation phase of sugarcane bagasse was accompanied by a significant decrease in the relative abundance of /Prevotella/, /Fibrobacter/, and /Ruminococcus 1/. Previous study has revealed that the abundance of unclassified /Rikenellaceae/ and unclassified /Ruminococcaceae/ has a positive correlation with NDF content and consequently these bacteria play a significant role in the degradation of low-quality fodders such as rice straw (Liu et al. 2016). The abundance of /Rikenellaceae RC9/ gut group, /Saccharofermentans/, and /Treponema 2/ in the slow degradation phase might be due to utilisation of degradation metabolites. The dynamic changes in the structure and chemical composition of fodders during incubation might change the input and output metabolites and create niche modification that subsequently can cause shifts in microbial communities.]] [fn:31]
+[[KJD31][The slow degradation phase of sugarcane bagasse was accompanied by a significant decrease in the relative abundance of /Prevotella/, /Fibrobacter/, and /Ruminococcus 1/. Previous study has revealed that the abundance of unclassified /Rikenellaceae/ and unclassified /Ruminococcaceae/ has a positive correlation with NDF content and consequently these bacteria play a significant role in the degradation of low-quality fodders such as rice straw (Liu et al. 2016). The abundance of /Rikenellaceae RC9/ gut group, /Saccharofermentans/, and /Treponema 2/ in the slow degradation phase might be due to utilisation of degradation metabolites. The dynamic changes in the structure and chemical composition of fodders during incubation might change the input and output metabolites and create niche modification that subsequently can cause shifts in microbial communities.]][fn:31]
 
-[[KJD32][** Lucerne hay subsection]] [fn:32]
-There was no significant NDF and ADF digestion during the solubilisation phase of Lucerne hay>> and /Christensenellaceae R-7 group/, /Butyrivibrio 2/, /Lachnospiraceae NK3A20 group/, /Lachnospiraceae XPB1014 group/, and /Prevotella 1/ were the most abundant bacterial genera in the microbial community on the surface of Lucerne hay particles. /Butyrivibrio/ is the main butyrate-producing bacteria in the rumen and is known to have proteolytic and oligosaccharide/polysaccharide-degrading activity (Stewart et al. 1997, Grilli et al. 2016, Jin et al. 2018, Dai et al. 2021). The abundance of /Prevotella 1/ spp. on the surface of Lucerne hay is likely due to their ability to degrade oligosaccharide, hemicellulose, and protein (Cheng et al. 2017, Terry et al. 2020). Given that ~40% of DM was digested during the solubilisation phase of Lucerne hay and no significant NDF and ADF digestion were observed, the abundance of these bacterial genera is likely due to the utilisation of soluble sugars, proteins, and minerals. [[KJD33][The adhesion of /Prevotella 1/, unclassified /Christensenellaceae/, /Butyrivibrio 2/, and unclassified /Lachnospiraceae/ has been previously reported on the surface of alfalfa hay during /in situ/ incubation in the rumen.]] [fn:33]
+COMMENT[fn:32]
+
+There was no significant NDF and ADF digestion during the solubilisation phase of Lucerne hay>> and /Christensenellaceae R-7 group/, /Butyrivibrio 2/, /Lachnospiraceae NK3A20 group/, /Lachnospiraceae XPB1014 group/, and /Prevotella 1/ were the most abundant bacterial genera in the microbial community on the surface of Lucerne hay particles. /Butyrivibrio/ is the main butyrate-producing bacteria in the rumen and is known to have proteolytic and oligosaccharide/polysaccharide-degrading activity (Stewart et al. 1997, Grilli et al. 2016, Jin et al. 2018, Dai et al. 2021). The abundance of /Prevotella 1/ spp. on the surface of Lucerne hay is likely due to their ability to degrade oligosaccharide, hemicellulose, and protein (Cheng et al. 2017, Terry et al. 2020). Given that ~40% of DM was digested during the solubilisation phase of Lucerne hay and no significant NDF and ADF digestion were observed, the abundance of these bacterial genera is likely due to the utilisation of soluble sugars, proteins, and minerals. [[KJD33][The adhesion of /Prevotella 1/, unclassified /Christensenellaceae/, /Butyrivibrio 2/, and unclassified /Lachnospiraceae/ has been previously reported on the surface of alfalfa hay during /in situ/ incubation in the rumen.]][fn:33]
 
 The bacterial communities on Lucerne hay particles in the rapid
 digestion phase had significantly higher α-diversity compared to those
@@ -751,9 +762,9 @@ XPB1014 group/, and /Prevotella 1/ decreased significantly in abundance
 in the plateau phase which is consistent with DM, NDF, and ADF
 digestibility.
 
-[[KJD34][Previous studies have demonstrated that bacterial communities adherent to fodder particles were affected by fodder type (Koike et al. 2014, Liu et al. 2016, Elliott et al. 2018, Terry et al. 2020). The present study confirms that the chemical composition and structure of fodder significantly affect the bacterial communities associated with fodder particles in the rumen. The bacterial communities colonising Lucerne hay had significantly higher α-diversity than sugarcane bagasse which is likely due to the differences in their chemical composition. Bacterial communities on Lucerne hay and sugarcane bagasse had similar diversity during the first 8 h of incubation but lucerne hay had higher diversity than sugarcane bagasse after 12 h which may be due to complexity of lucerne hay fibre when most of the readily-fermentable components are consumed. It has been previously demonstrated that fodder complexity promotes microbial diversity (Matthews et al. 2019). A comparison of the bacterial genera on sugarcane bagasse and Lucerne hay particles in the degradation phases of incubation revealed that bacterial taxa detected in the intermediate phase of sugarcane bagasse and slow digestion and plateau phases of Lucerne hay had more specialised microorganisms with cellulytic role. However, the bacterial community on sugarcane bagasse and Lucerne hay differed in the abundance which might be due to the differences in plant cell wall composition and structure, and/or microbial interaction. A higher abundance of /Fibrobacter/ and /Saccharofermentans/ on sugarcane bagasse is likely because of the low content of soluble and readily digestible carbohydrates, subsequently, fibrolytic bacteria became more dominant. /Anaeroplasma/ and /Butyrivibrio 2/ had a higher abundance in the digestion phase of Lucerne hay which is likely because of the protein, starch, and easily accessible carbohydrates in Lucerne hay. It is reported that /Anaeroplasma/ is more abundant in fodders with high crude protein content (Takizawa et al. 2021).]] [fn:34]
+[[KJD34][Previous studies have demonstrated that bacterial communities adherent to fodder particles were affected by fodder type (Koike et al. 2014, Liu et al. 2016, Elliott et al. 2018, Terry et al. 2020). The present study confirms that the chemical composition and structure of fodder significantly affect the bacterial communities associated with fodder particles in the rumen. The bacterial communities colonising Lucerne hay had significantly higher α-diversity than sugarcane bagasse which is likely due to the differences in their chemical composition. Bacterial communities on Lucerne hay and sugarcane bagasse had similar diversity during the first 8 h of incubation but lucerne hay had higher diversity than sugarcane bagasse after 12 h which may be due to complexity of lucerne hay fibre when most of the readily-fermentable components are consumed. It has been previously demonstrated that fodder complexity promotes microbial diversity (Matthews et al. 2019). A comparison of the bacterial genera on sugarcane bagasse and Lucerne hay particles in the degradation phases of incubation revealed that bacterial taxa detected in the intermediate phase of sugarcane bagasse and slow digestion and plateau phases of Lucerne hay had more specialised microorganisms with cellulytic role. However, the bacterial community on sugarcane bagasse and Lucerne hay differed in the abundance which might be due to the differences in plant cell wall composition and structure, and/or microbial interaction. A higher abundance of /Fibrobacter/ and /Saccharofermentans/ on sugarcane bagasse is likely because of the low content of soluble and readily digestible carbohydrates, subsequently, fibrolytic bacteria became more dominant. /Anaeroplasma/ and /Butyrivibrio 2/ had a higher abundance in the digestion phase of Lucerne hay which is likely because of the protein, starch, and easily accessible carbohydrates in Lucerne hay. It is reported that /Anaeroplasma/ is more abundant in fodders with high crude protein content (Takizawa et al. 2021).]][fn:34]
 
-[[KJD35][In summary, this study provided a comprehensive overview of the effect of fodder composition on the diversity and composition of bacterial communities colonising sugarcane bagasse and Lucerne hay and demonstrated that the colonising bacterial community is affected by the differences in crude protein and fibre (NDF and ADF) contents. The dynamics of changes in bacterial communities colonising sugarcane bagasse and Lucerne hay during /in situ/ rumen incubation is likely driven by ecological niche partitioning, microbial interactions (/e.g./ hydrogen transfer), and/or competitions between microorganisms for a mutual resource (Moraïs and Mizrahi 2019, Moraïs and Mizrahi 2019). Carbohydrates within plant cell wall are different in terms of rate of degradation which subsequently causes changes in the colonising microbial community over time after feeding. Further, the changes in the relative abundance of different members of bacterial community is likely because fodder fibre becomes increasingly crystalline during digestion. It might also be due to ecological niche modification, a process during which the metabolic activity of microorganisms modifies their local environment and creates new niches for other microorganisms. It is suggested that a rock--paper--scissor-type interactions might exist in complex ecosystems such as rumen, whereby despite of negative competitions among microorganisms for mutual substrates and growth factors, none microbe become consistently dominant because microorganisms are embedded in networks with multiple environmental factors that allows species coexistence.]] [fn:35]
+[[KJD35][In summary, this study provided a comprehensive overview of the effect of fodder composition on the diversity and composition of bacterial communities colonising sugarcane bagasse and Lucerne hay and demonstrated that the colonising bacterial community is affected by the differences in crude protein and fibre (NDF and ADF) contents. The dynamics of changes in bacterial communities colonising sugarcane bagasse and Lucerne hay during /in situ/ rumen incubation is likely driven by ecological niche partitioning, microbial interactions (/e.g./ hydrogen transfer), and/or competitions between microorganisms for a mutual resource (Moraïs and Mizrahi 2019, Moraïs and Mizrahi 2019). Carbohydrates within plant cell wall are different in terms of rate of degradation which subsequently causes changes in the colonising microbial community over time after feeding. Further, the changes in the relative abundance of different members of bacterial community is likely because fodder fibre becomes increasingly crystalline during digestion. It might also be due to ecological niche modification, a process during which the metabolic activity of microorganisms modifies their local environment and creates new niches for other microorganisms. It is suggested that a rock--paper--scissor-type interactions might exist in complex ecosystems such as rumen, whereby despite of negative competitions among microorganisms for mutual substrates and growth factors, none microbe become consistently dominant because microorganisms are embedded in networks with multiple environmental factors that allows species coexistence.]][fn:35]
 
 * *5. Conclusion*
 
@@ -762,7 +773,7 @@ and the bacterial communities colonising sugarcane bagasse and Lucerne
 hay were affected by incubation time in the rumen and fodder type.
 Further, a strong relationship between the kinetics of DM, NDF, and ADF
 digestibility and fodder-adherent bacterial communities was observed.
-[[KJD36][The bacterial community associated with sugarcane bagasse and Lucerne hay and planktonic bacterial community were characterised using full-length PacBio sequencing.]] [fn:36]
+[[KJD36][The bacterial community associated with sugarcane bagasse and Lucerne hay and planktonic bacterial community were characterised using full-length PacBio sequencing.]][fn:36]
 The bacterial communities that colonised
 sugarcane bagasse and Lucerne hay were distinct between phases of
 incubation. The NDF and ADF digestion of bagasse during the digestion
@@ -781,7 +792,7 @@ efficiency in ruminants.
 
 * *Acknowledgements*
 
-  [[KJD37][X]] [fn:37]
+  [[KJD37][X]][fn:37]
 
 * *Tables*
 
@@ -1129,87 +1140,94 @@ Lactation and Its Association With Host Phenotype. /Front Microbiol/.
 
 ** Corrections
 *** Kevin Dudley ^{4}
+[fn:38]Change from: Kevin Dudley ^{4}
 *** 60% to 70%
+[fn:39]Change from: 60% to 70%
 *** stomach compartment in
+[fn:40]Change from: stomach compartment in
 *** DM
+[fn:42] Change from: DM
 *** Microbial colonisation of fodder particles in the rumen
+[fn:41]Change from: Microbial colonisation of fodder particles in the rumen
 *** 72 h of incubation
+[fn:43] Change from: 72 h of incubation
 *** data not shown in
+[fn:44] Change from: data not shown in
 *** The proportion of Fibrobacteres was significantly higher in sugarcane bagasse than in Lucerne hay samples at 24 h of incubation, and Lucerne hay had a higher abundance of Tenericutes at 8, 12, and 18 h of incubation than sugarcane bagasse
+[fn:45] Change from: The proportion of Fibrobacteres was significantly higher in sugarcane bagasse than in Lucerne hay samples at 24 h of incubation, and Lucerne hay had a higher abundance of Tenericutes at 8, 12, and 18 h of incubation than sugarcane bagasse
 ** Comments
-**** KJD1
+*** KJD1
 [fn:1] Can this sentence be simplified?
-**** KJD2
+*** KJD2
 [fn:2] Is rumen fermentation the correct terminology?
-**** KJD3
+*** KJD3
 [fn:3] Can this section be shortened by referring to previous papers?
-**** KJD4
-[fn:4]  Is this kit suitable for rumen microbiome analysis - references?
-**** KJD5
-[fn:5]  P-value to back this up?
-**** KJD6
-[fn:6]  For sugarcane bagasse, the rate appears constant to me
-**** KJD7
-[fn:7]  Maximum for lucerne hay is less than 48 h. More like 32 h
-**** KJD8
-[fn:8]  This should be section 3.3
-**** KJD9
-[fn:9]  Should this be Observed OTUs?
-**** KJD10
-[fn:10]  Data not shown? Why? This might be a good comparison
-**** KJD11
-[fn:11]  New subheading? Beta diversity analysis
-**** KJD12
-[fn:12]  I'm not sure how to interprete this figure
-**** KJD13
-[fn:13]  I don't think this paragraph is necessary as the focus should be on genus/species-level analysis
-**** KJD14
-[fn:14]  Perhaps just include the genera that significantly changed in this figure?
-**** KJD15
-[fn:15]  Don't need to show this P value
-**** KJD16
-[fn:16]  Greater than 0.0 what?
-**** KJD17
-[fn:17]  Less than what?
-**** KJD18
-[fn:18]  Is it possible to just contrast these findings with the bagasse findings and highlight differences? It all sounds very repetitive the way it is currently written
-**** KJD19
-[fn:19]  How is this section different to the previous one? Can the important comparisons be incorporated into one section? Primarily focussing on species/genus-level analysis
-**** KJD20
-[fn:20]  Is there a figure highlighting these differences?
-**** KJD21
-[fn:21]  Again, this is all quite repetitive. I wonder if this and the previous two sections can be condensed into one, highlighting only the major differences? This will help keep the reader engaged
-**** KJD22
-[fn:22]  This section be incorporated into the "Epiphytic bacterial communities on sugarcane bagasse and Lucerne hay" section if you change the title of that section
-**** KJD23
-[fn:23]  This sounds like it should go in the Introduction
-**** KJD24
-[fn:24]  This sounds like the start of the Discussion
-**** KJD25
-[fn:25]  Again, this sounds like background information and may be better placed in the Introduction
-**** KJD26
-[fn:26]  No need to go into so much detail here as that was provided in the results section. Just make a quick reference to the fact that there were big differences in digestibility
-**** KJD27
-[fn:27]  Extra timepoints analysed in this study provided novel insight into phases of digestion that had not previously been observed. This is the key takeaway point and I'm not sure the detail provided before this is necessary to include. Just point the reader to the relevant references
-**** KJD28
-[fn:28]  This is the key point and just use appropriate references to confirm that your findings are similar to previous ones. No need for all the detail
-**** KJD29
-[fn:29]  This paragraph basically says that your findings are in agreement with what is already known. That's fine. But is there anything about your particular dataset that is novel? E.g. any novel species-level observation that made use of long Pacbio reads?
-**** KJD30
-[fn:30]  Again, you are highlighting similarities with other studies here. Are there any differences/novel insights?
-**** KJD31
-[fn:31]  I dont really follow this
-**** KJD32
-[fn:32]  Perhaps start a new subsection for lucerne hay. Likewise, make a new sub-section for the sugarcane bagasse section above
-**** KJD33
-[fn:33]  More similarities. Any differences?
-**** KJD34
-[fn:34]  Perhaps this can go closer to the start of the Discussion as it summarises the key findings
-**** KJD35
-[fn:35]  The summary should focus on how your approach led to novel insights and how these in turn might have practical applications. You should probably also address limitations such as the lack of analysis of fungi etc. As otherwise this will be picked up by the reviewers
-**** KJD36
-[fn:36]  The benefits of which were?
-**** KJD37
-[fn:37]  CARF, UQ Gatton etc
+*** KJD4
+[fn:4] Is this kit suitable for rumen microbiome analysis - references?
+*** KJD5
+[fn:5] P-value to back this up?
+*** KJD6
+[fn:6] For sugarcane bagasse, the rate appears constant to me
+*** KJD7
+[fn:7] Maximum for lucerne hay is less than 48 h. More like 32 h
+*** KJD8
+[fn:8] This should be section 3.3
+*** KJD9
+[fn:9] Should this be Observed OTUs?
+*** KJD10
+[fn:10] Data not shown? Why? This might be a good comparison
+*** KJD11
+[fn:11] New subheading? Beta diversity analysis
+*** KJD12
+[fn:12] I'm not sure how to interprete this figure
+*** KJD13
+[fn:13] I don't think this paragraph is necessary as the focus should be on genus/species-level analysis
+*** KJD14
+[fn:14] Perhaps just include the genera that significantly changed in this figure?
+*** KJD15
+[fn:15] Don't need to show this P value
+*** KJD16
+[fn:16] Greater than 0.0 what?
+*** KJD17
+[fn:17] Less than what?
+*** KJD18
+[fn:18] Is it possible to just contrast these findings with the bagasse findings and highlight differences? It all sounds very repetitive the way it is currently written
+*** KJD19
+[fn:19] How is this section different to the previous one? Can the important comparisons be incorporated into one section? Primarily focussing on species/genus-level analysis
+*** KJD20
+[fn:20] Is there a figure highlighting these differences?
+*** KJD21
+[fn:21] Again, this is all quite repetitive. I wonder if this and the previous two sections can be condensed into one, highlighting only the major differences? This will help keep the reader engaged
+*** KJD22
+[fn:22] This section be incorporated into the "Epiphytic bacterial communities on sugarcane bagasse and Lucerne hay" section if you change the title of that section
+*** KJD23
+[fn:23] This sounds like it should go in the Introduction
+*** KJD24
+[fn:24] This sounds like the start of the Discussion
+*** KJD25
+[fn:25] Again, this sounds like background information and may be better placed in the Introduction
+*** KJD26
+[fn:26] No need to go into so much detail here as that was provided in the results section. Just make a quick reference to the fact that there were big differences in digestibility
+*** KJD27
+[fn:27] Extra timepoints analysed in this study provided novel insight into phases of digestion that had not previously been observed. This is the key takeaway point and I'm not sure the detail provided before this is necessary to include. Just point the reader to the relevant references
+*** KJD28
+[fn:28] This is the key point and just use appropriate references to confirm that your findings are similar to previous ones. No need for all the detail
+*** KJD29
+[fn:29] This paragraph basically says that your findings are in agreement with what is already known. That's fine. But is there anything about your particular dataset that is novel? E.g. any novel species-level observation that made use of long Pacbio reads?
+*** KJD30
+[fn:30] Again, you are highlighting similarities with other studies here. Are there any differences/novel insights?
+*** KJD31
+[fn:31] I dont really follow this
+*** KJD32
+[fn:32] Perhaps start a new subsection for lucerne hay. Likewise, make a new sub-section for the sugarcane bagasse section above
+*** KJD33
+[fn:33] More similarities. Any differences?
+*** KJD34
+[fn:34] Perhaps this can go closer to the start of the Discussion as it summarises the key findings
+*** KJD35
+[fn:35] The summary should focus on how your approach led to novel insights and how these in turn might have practical applications. You should probably also address limitations such as the lack of analysis of fungi etc. As otherwise this will be picked up by the reviewers
+*** KJD36
+[fn:36] The benefits of which were?
+*** KJD37
+[fn:37] CARF, UQ Gatton etc
 
-* Footnotes

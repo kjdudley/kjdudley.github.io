@@ -17,7 +17,7 @@
 
 ;; Customize the html output
 (setq org-html-validation-link nil
-      org-html-head-include-scripts nil
+      ;;org-html-head-include-scripts nil
       org-html-head-include-default-style nil
       ;;org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple-v1.css\" />")
       org-html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"tufte.css\" />")
@@ -26,10 +26,10 @@
 (setq org-publish-project-alist
       (list
        (list "diybiolab-org-site"
-	     :html-container "section"
-	     :html-doctype "html5"
-	     :headline-levels 2
-	     :html-html5-fancy t
+	     ;;:html-container "section"
+	     ;;:html-doctype "html5"
+	     ;;:headline-levels 2
+	     ;;:html-html5-fancy t
 	     :recursive t
 	     :base-directory "./content"
 	     :publishing-directory "./public"
