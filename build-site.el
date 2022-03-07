@@ -20,7 +20,7 @@
       org-html-head-include-scripts nil
       org-html-head-include-default-style nil
       ;;org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple-v1.css\" />")
-      org-html-head "<link rel=\"stylesheet\" type \"text/css\" href=\"tufte.css\" />")
+      org-html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"tufte.css\" />")
 
 ;; Define the publishing project
 (setq org-publish-project-alist
