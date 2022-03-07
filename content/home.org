@@ -1,7 +1,0 @@
-* HOWTOS
-* Manuscripts
-** Mahsa paper 2
-Here is a link to the [[./manuscripts/mahsa_paper2.org][latest draft]].
-** Kevin paper 1
-* Getting Things Done
-Here is a link to my [[~/Documents/work_task.org][work tasks]].
