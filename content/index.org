@@ -209,7 +209,7 @@ Sigma-Aldrich, respectively. Polyester bags (10 × 24 cm, pore size of 48
 µm) for /in situ/ digestion were purchased from Allied Filter Fabrics
 Corp, Australia.
 
-** [[KJD3][*2.2 Fodder compositional analysis*]]
+** [[KJD3][*2.2 Fodder compositional analysis*]][fn:3]
 
 Fodder samples were dried at 45 °C for 48 h and milled using a Retsch
 SM100 hammer mill (Retsch GmBH, Germany) fitted with a 2 mm sieve. Water
@@ -1136,11 +1136,11 @@ Lactation and Its Association With Host Phenotype. /Front Microbiol/.
 *** The proportion of Fibrobacteres was significantly higher in sugarcane bagasse than in Lucerne hay samples at 24 h of incubation, and Lucerne hay had a higher abundance of Tenericutes at 8, 12, and 18 h of incubation than sugarcane bagasse
 ** Comments
 *** KJD1
-[fn:1]  Can this sentence be simplified?
+[fn:1] Can this sentence be simplified?
 *** KJD2
-[fn:2]  Is rumen fermentation the correct terminology?
+[fn:2] Is rumen fermentation the correct terminology?
 *** KJD3
-[fn:3]  Can this section be shortened by referring to previous papers?
+[fn:3] Can this section be shortened by referring to previous papers?
 *** KJD4
   Is this kit suitable for rumen microbiome analysis - references?
 *** KJD5
