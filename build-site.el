@@ -9,6 +9,7 @@
   (package-refresh-contents))
 
 (package-install 'ox-tufte)
+(package-install 'htmlize)
 
 ;; load the publishing system
 (require 'ox-publish)
