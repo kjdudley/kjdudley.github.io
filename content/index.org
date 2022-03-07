@@ -1,3 +1,5 @@
+#+STARTUP: nofninline
+
 * *Structure and dynamics of the bacterial communities colonising low- and high-quality fodder in the bovine rumen*
 
 Mahsa Abbasabadi ^{1,4}, Paul Whatmore ^{2}, Victoria Coyne ^{3}, Roberto Barrero Gumiel ^{2}, Junior Te'o ^{4}, Ian O'Hara ^{1,5}, [[Kevin Dudley ^{4}][Kevin J. Dudley ^{3,4}]], Karen Harper ^{6}, and Mark D. Harrison ^{1,4*}
