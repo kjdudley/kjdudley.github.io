@@ -25,7 +25,7 @@
 ;; Define the publishing project
 (setq org-publish-project-alist
       (list
-       (list "my-org-site"
+       (list "diybiolab-org-site"
 	     :html-container "section"
 	     :html-doctype "html5"
 	     :headline-levels 2
