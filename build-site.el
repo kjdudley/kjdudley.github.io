@@ -37,10 +37,21 @@
 	     ;;:with-footnotes t
 	     :section-numbers nil
 	     :time-stamp-file nil)
+       (list "org-inprep"
+	     :recursive nil
+	     :base-directory "./content"
+	     :publishing-directory "./public/in_prep"
+	     :publishing-function 'org-html-publish-to-html
+	     :with-author nil
+	     :with-creator t
+	     :with-toc nil
+	     ;;:with-footnotes t
+	     :section-numbers nil
+	     :time-stamp-file nil)
        (list "org-manuscripts"
 	     :recursive t
-	     :base-directory "./content/manuscripts"
-	     :publishing-directory "./public/manuscripts"
+	     :base-directory "./content/in_prep/manuscripts"
+	     :publishing-directory "./public/in_prep/manuscripts"
 	     :publishing-function 'org-html-publish-to-tufte-html
 	     :with-author nil
 	     :with-creator t

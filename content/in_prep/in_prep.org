@@ -1,0 +1,7 @@
+[[../index.org][Home]]
+
+* Papers
+** [[./manuscripts/mahsa_paper2.org][Mahsa paper 2]]
+** Kevin paper 1
+* Presentations
+* Workshops

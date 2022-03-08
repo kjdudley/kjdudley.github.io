@@ -1,7 +1,9 @@
+[[./in_prep/in_prep.org][In Prep]]
+
 * HOWTOS
-* Manuscripts
+* [[./in_prep/in_prep.org][In Prep]]
 ** Mahsa paper 2
-Here is a link to the [[./manuscripts/mahsa_paper2.org][latest draft]].
+Here is a link to the [[./in_prep/manuscripts/mahsa_paper2.org][latest draft]].
 ** Kevin paper 1
-* Getting Things Done
+* GTD
 Here is a link to my [[~/Documents/work_task.org][work tasks]].
