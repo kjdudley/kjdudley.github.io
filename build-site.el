@@ -25,8 +25,8 @@
 
 ;; Define the publishing project
 (setq org-publish-project-alist
-      (list
-       (list "home"
+      '(
+       ("home"
 	     :recursive nil
 	     :base-directory "./content"
 	     :publishing-directory "./public"
@@ -37,7 +37,7 @@
 	     ;;:with-footnotes t
 	     :section-numbers nil
 	     :time-stamp-file nil)
-       (list "manuscripts"
+       ("manuscripts"
 	     :recursive t
 	     :base-directory "./contents/manuscripts"
 	     :publishing-directory "./public/manuscripts"
@@ -47,7 +47,8 @@
 	     :with-toc nil
 	     ;;:with-footnotes t
 	     :section-numbers nil
-	     :time-stamp-file nil)))
+	     :time-stamp-file nil)
+       ))
 
 ;; Generate the site output
 (org-publish-all t)
