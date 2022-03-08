@@ -1,4 +1,4 @@
-#+HTML_HEAD: <link rel="stylesheet" href="../tufte.css" type="text/css" />
+#+HTML_HEAD: <link rel="stylesheet" href="../../tufte.css" type="text/css" />
 
 [[../../index.org][Home]] [[../in_prep.org][In Prep]]
 
