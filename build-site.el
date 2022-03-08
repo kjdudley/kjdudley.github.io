@@ -25,8 +25,8 @@
 
 ;; Define the publishing project
 (setq org-publish-project-alist
-      '(
-       ("home"
+      (list
+       (list "org-content"
 	     :recursive nil
 	     :base-directory "./content"
 	     :publishing-directory "./public"
@@ -37,9 +37,9 @@
 	     ;;:with-footnotes t
 	     :section-numbers nil
 	     :time-stamp-file nil)
-       ("manuscripts"
+       (list "org-manuscripts"
 	     :recursive t
-	     :base-directory "./contents/manuscripts"
+	     :base-directory "./content/manuscripts"
 	     :publishing-directory "./public/manuscripts"
 	     :publishing-function 'org-html-publish-to-tufte-html
 	     :with-author nil
