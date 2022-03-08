@@ -27,7 +27,7 @@
 (setq org-publish-project-alist
       (list
        (list "home"
-	     :recursive t
+	     :recursive nil
 	     :base-directory "./content"
 	     :publishing-directory "./public"
 	     :publishing-function 'org-html-publish-to-html
@@ -39,7 +39,7 @@
 	     :time-stamp-file nil)
        (list "manuscripts"
 	     :recursive t
-	     :base-directory "./manuscripts"
+	     :base-directory "./contents/manuscripts"
 	     :publishing-directory "./public"
 	     :publishing-function 'org-html-publish-to-tufte-html
 	     :with-author nil
