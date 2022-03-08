@@ -33,7 +33,7 @@
 	     :publishing-function 'org-html-publish-to-html
 	     :with-author nil
 	     :with-creator t
-	     :with-toc nil
+	     :with-toc t
 	     ;;:with-footnotes t
 	     :section-numbers nil
 	     :time-stamp-file nil)
