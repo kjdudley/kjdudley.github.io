@@ -20,19 +20,26 @@
 (setq org-html-validation-link nil
       org-html-head-include-scripts nil
       org-html-head-include-default-style nil
-      ;;org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple-v1.css\" />")
-      org-html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"tufte.css\" />")
+      org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple-v1.css\" />")
+      ;;org-html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"tufte.css\" />")
 
 ;; Define the publishing project
 (setq org-publish-project-alist
       (list
-       (list "diybiolab-org-site"
-	     ;;:html-container "section"
-	     ;;:html-doctype "html5"
-	     ;;:headline-levels 2
-	     ;;:html-html5-fancy t
+       (list "home"
 	     :recursive t
 	     :base-directory "./content"
+	     :publishing-directory "./public"
+	     :publishing-function 'org-html-publish-to-html
+	     :with-author nil
+	     :with-creator t
+	     :with-toc nil
+	     ;;:with-footnotes t
+	     :section-numbers nil
+	     :time-stamp-file nil)
+       (list "manuscripts"
+	     :recursive t
+	     :base-directory "./manuscripts"
 	     :publishing-directory "./public"
 	     :publishing-function 'org-html-publish-to-tufte-html
 	     :with-author nil
