@@ -39,7 +39,7 @@
 	     :time-stamp-file nil)
        (list "org-inprep"
 	     :recursive nil
-	     :base-directory "./content"
+	     :base-directory "./content/in_prep"
 	     :publishing-directory "./public/in_prep"
 	     :publishing-function 'org-html-publish-to-html
 	     :with-author nil
