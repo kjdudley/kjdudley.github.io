@@ -40,7 +40,7 @@
        (list "manuscripts"
 	     :recursive t
 	     :base-directory "./contents/manuscripts"
-	     :publishing-directory "./public"
+	     :publishing-directory "./public/manuscripts"
 	     :publishing-function 'org-html-publish-to-tufte-html
 	     :with-author nil
 	     :with-creator t

@@ -1,4 +1,4 @@
-#+HTML_HEAD: <link rel="stylesheet" href="tufte.css" type="text/css" />
+#+HTML_HEAD: <link rel="stylesheet" href="../tufte.css" type="text/css" />
 
 * *Structure and dynamics of the bacterial communities colonising low- and high-quality fodder in the bovine rumen*
 
